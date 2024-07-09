@@ -1,0 +1,35 @@
+.containerParent {
+  align-self: stretch;
+  height: 586px;
+  position: relative;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 900px;
+  max-width: 100%;
+}
+.stable0xcomByHtmltodesign {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 900px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerParent {
+    height: auto;
+    min-height: 586;
+  }
+}

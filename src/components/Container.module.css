@@ -1,0 +1,205 @@
+.imageIcon {
+  width: 644px;
+  height: 416.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0px 0px var(--br-13xl) 0px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.joinStable0xEcosystem {
+  align-self: stretch;
+  position: relative;
+  line-height: 58px;
+  font-weight: 500;
+}
+.heading3 {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.tapIntoOur {
+  margin: 0;
+}
+.tapIntoOurContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 415px;
+  font-size: var(--font-size-mid);
+  color: var(--stable0xcom-mine-shaft);
+}
+.container2 {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px var(--padding-12xs);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm-8);
+  color: var(--stable0xcom-silver-chalice);
+  min-width: 162px;
+}
+.input {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--stable0xcom-nero);
+  border: 1px solid var(--stable0xcom-mercury);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-mini) var(--padding-xs)
+    var(--padding-mid);
+  min-width: 198px;
+}
+.joinWaitlist {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+}
+.link {
+  border-radius: var(--br-3xs);
+  background-color: var(--stable0xcom-cod-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+}
+.form {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-653xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-sm-1);
+  color: var(--stable0xcom-nero);
+}
+.background {
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  background-color: var(--stable0xcom-malachite);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-50xl-4) 0px 0px var(--padding-51xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-height: 486px;
+  max-width: 100%;
+}
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-106xl) var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 1440px;
+  text-align: left;
+  font-size: var(--font-size-21xl-9);
+  color: var(--stable0xcom-cod-gray);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1425px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .form {
+    padding-right: var(--padding-317xl);
+    box-sizing: border-box;
+  }
+
+  .background {
+    padding-left: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .joinStable0xEcosystem {
+    font-size: var(--font-size-14xl);
+    line-height: 46px;
+  }
+
+  .form {
+    padding-right: var(--padding-149xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinStable0xEcosystem {
+    font-size: var(--font-size-6xl);
+    line-height: 35px;
+  }
+
+  .container1 {
+    max-width: 100%;
+  }
+
+  .form {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
