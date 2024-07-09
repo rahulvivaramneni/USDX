@@ -241,11 +241,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-image: url("/public/background@3x.png");
+  /* background-image: url("/public/background@3x.png"); */
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  min-height: 1880px;
+  min-height: 1100px;
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-42xl);

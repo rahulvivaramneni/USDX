@@ -49,7 +49,7 @@ const Background2: FunctionComponent<Background2Type> = ({
             <span className={styles.heading1Container1}>
               <p className={styles.introducing0xusd}>Introducing USDX,</p>
               <p className={styles.introducing0xusd}>
-                The Alog-Collateral Stablecoin
+                The Algo-Collateral Stablecoin
               </p>
             </span>
           </h1>

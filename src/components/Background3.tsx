@@ -38,7 +38,7 @@ const Background3: FunctionComponent<Background3Type> = ({
             <div className={styles.heading1Container}>
               <p className={styles.introducingUsdx}>Introducing USDX,</p>
               <p className={styles.introducingUsdx}>
-                The Alog-Collateral Stablecoin
+                The Algo-Collateral Stablecoin
               </p>
             </div>
             <div className={styles.margin1}>
